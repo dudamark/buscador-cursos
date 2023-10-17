@@ -2,7 +2,6 @@
     "name": "carlos/buscador-cursos",
     "description": "Buscador que busca cursos em sites",
     "type": "library",
-    "license": "jpl",
     "authors": [
         {
             "name": "Eduardo Marques"
@@ -39,5 +38,7 @@
     },
     "scripts-descriptions": {
         "check": "Roda as verificações do código. PHAN, PHPCS e PHPUNIT"
-    }
+    },
+    "license": "GPL-3.0",
+    "bin": ["buscar-de-cursos.php"]
 }
